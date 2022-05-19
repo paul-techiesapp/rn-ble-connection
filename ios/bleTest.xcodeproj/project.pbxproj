@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* zensoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* zensoTests.m */; };
+		00E356F31AD99517003FC87E /* bleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bleTestTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		67F1F283ACBA3936EF896C2D /* libPods-zenso-zensoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7347D4D9FD4C395D7AE65C7 /* libPods-zenso-zensoTests.a */; };
+		67F1F283ACBA3936EF896C2D /* libPods-bleTest-bleTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7347D4D9FD4C395D7AE65C7 /* libPods-bleTest-bleTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C9AE76AA980C573A065F15DA /* libPods-zenso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3430BA1A4714928E1E72F4B /* libPods-zenso.a */; };
+		C9AE76AA980C573A065F15DA /* libPods-bleTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3430BA1A4714928E1E72F4B /* libPods-bleTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = zenso;
+			remoteInfo = bleTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* zensoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zensoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* bleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* zensoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zensoTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* zenso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenso.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = zenso/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = zenso/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = zenso/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = zenso/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = zenso/main.m; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = zenso/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EC85B73DC68DE495E565C23 /* Pods-zenso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenso.release.xcconfig"; path = "Target Support Files/Pods-zenso/Pods-zenso.release.xcconfig"; sourceTree = "<group>"; };
-		9274F1F5A5FCFE3B55522430 /* Pods-zenso-zensoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenso-zensoTests.debug.xcconfig"; path = "Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A911E2BC94CDA4DFE9AAA69E /* Pods-zenso-zensoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenso-zensoTests.release.xcconfig"; path = "Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests.release.xcconfig"; sourceTree = "<group>"; };
-		C7347D4D9FD4C395D7AE65C7 /* libPods-zenso-zensoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenso-zensoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1EF9235481732F4AFF52E2 /* Pods-zenso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenso.debug.xcconfig"; path = "Target Support Files/Pods-zenso/Pods-zenso.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* bleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bleTestTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* bleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = bleTest/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = bleTest/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = bleTest/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = bleTest/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bleTest/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = bleTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EC85B73DC68DE495E565C23 /* Pods-bleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleTest.release.xcconfig"; path = "Target Support Files/Pods-bleTest/Pods-bleTest.release.xcconfig"; sourceTree = "<group>"; };
+		9274F1F5A5FCFE3B55522430 /* Pods-bleTest-bleTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleTest-bleTestTests.debug.xcconfig"; path = "Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A911E2BC94CDA4DFE9AAA69E /* Pods-bleTest-bleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleTest-bleTestTests.release.xcconfig"; path = "Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7347D4D9FD4C395D7AE65C7 /* libPods-bleTest-bleTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bleTest-bleTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1EF9235481732F4AFF52E2 /* Pods-bleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleTest.debug.xcconfig"; path = "Target Support Files/Pods-bleTest/Pods-bleTest.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3430BA1A4714928E1E72F4B /* libPods-zenso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3430BA1A4714928E1E72F4B /* libPods-bleTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bleTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F1F283ACBA3936EF896C2D /* libPods-zenso-zensoTests.a in Frameworks */,
+				67F1F283ACBA3936EF896C2D /* libPods-bleTest-bleTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9AE76AA980C573A065F15DA /* libPods-zenso.a in Frameworks */,
+				C9AE76AA980C573A065F15DA /* libPods-bleTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* zensoTests */ = {
+		00E356EF1AD99517003FC87E /* bleTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* zensoTests.m */,
+				00E356F21AD99517003FC87E /* bleTestTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = zensoTests;
+			path = bleTestTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* zenso */ = {
+		13B07FAE1A68108700A75B9A /* bleTest */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = zenso;
+			name = bleTest;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F3430BA1A4714928E1E72F4B /* libPods-zenso.a */,
-				C7347D4D9FD4C395D7AE65C7 /* libPods-zenso-zensoTests.a */,
+				F3430BA1A4714928E1E72F4B /* libPods-bleTest.a */,
+				C7347D4D9FD4C395D7AE65C7 /* libPods-bleTest-bleTestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* zenso */,
+				13B07FAE1A68108700A75B9A /* bleTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* zensoTests */,
+				00E356EF1AD99517003FC87E /* bleTestTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				84F777919B2E0C59834DCC6B /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* zenso.app */,
-				00E356EE1AD99517003FC87E /* zensoTests.xctest */,
+				13B07F961A680F5B00A75B9A /* bleTest.app */,
+				00E356EE1AD99517003FC87E /* bleTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		84F777919B2E0C59834DCC6B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD1EF9235481732F4AFF52E2 /* Pods-zenso.debug.xcconfig */,
-				8EC85B73DC68DE495E565C23 /* Pods-zenso.release.xcconfig */,
-				9274F1F5A5FCFE3B55522430 /* Pods-zenso-zensoTests.debug.xcconfig */,
-				A911E2BC94CDA4DFE9AAA69E /* Pods-zenso-zensoTests.release.xcconfig */,
+				CD1EF9235481732F4AFF52E2 /* Pods-bleTest.debug.xcconfig */,
+				8EC85B73DC68DE495E565C23 /* Pods-bleTest.release.xcconfig */,
+				9274F1F5A5FCFE3B55522430 /* Pods-bleTest-bleTestTests.debug.xcconfig */,
+				A911E2BC94CDA4DFE9AAA69E /* Pods-bleTest-bleTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* zensoTests */ = {
+		00E356ED1AD99517003FC87E /* bleTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "zensoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bleTestTests" */;
 			buildPhases = (
 				6BAEF4D5A0AEF1AF9F11F11A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = zensoTests;
-			productName = zensoTests;
-			productReference = 00E356EE1AD99517003FC87E /* zensoTests.xctest */;
+			name = bleTestTests;
+			productName = bleTestTests;
+			productReference = 00E356EE1AD99517003FC87E /* bleTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* zenso */ = {
+		13B07F861A680F5B00A75B9A /* bleTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "zenso" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bleTest" */;
 			buildPhases = (
 				EE2B9CF4F3A8BE73C42BA4BE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = zenso;
-			productName = zenso;
-			productReference = 13B07F961A680F5B00A75B9A /* zenso.app */;
+			name = bleTest;
+			productName = bleTest;
+			productReference = 13B07F961A680F5B00A75B9A /* bleTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "zenso" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bleTest" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* zenso */,
-				00E356ED1AD99517003FC87E /* zensoTests */,
+				13B07F861A680F5B00A75B9A /* bleTest */,
+				00E356ED1AD99517003FC87E /* bleTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,15 +270,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BD85ACA6F60023706C7F97B /* [CP] Copy Pods Resources */ = {
@@ -287,15 +287,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenso-zensoTests/Pods-zenso-zensoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bleTest-bleTestTests/Pods-bleTest-bleTestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6BAEF4D5A0AEF1AF9F11F11A /* [CP] Check Pods Manifest.lock */ = {
@@ -313,7 +313,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-zenso-zensoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-bleTest-bleTestTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -326,15 +326,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso/Pods-zenso-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest/Pods-bleTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso/Pods-zenso-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest/Pods-bleTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenso/Pods-zenso-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bleTest/Pods-bleTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D2D9ACFF210E050CEB9070A6 /* [CP] Copy Pods Resources */ = {
@@ -343,15 +343,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso/Pods-zenso-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest/Pods-bleTest-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenso/Pods-zenso-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-bleTest/Pods-bleTest-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenso/Pods-zenso-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bleTest/Pods-bleTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE2B9CF4F3A8BE73C42BA4BE /* [CP] Check Pods Manifest.lock */ = {
@@ -369,7 +369,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-zenso-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-bleTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* zensoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* bleTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +420,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* zenso */;
+			target = 13B07F861A680F5B00A75B9A /* bleTest */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,14 +428,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9274F1F5A5FCFE3B55522430 /* Pods-zenso-zensoTests.debug.xcconfig */;
+			baseConfigurationReference = 9274F1F5A5FCFE3B55522430 /* Pods-bleTest-bleTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = zensoTests/Info.plist;
+				INFOPLIST_FILE = bleTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,17 +453,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenso.app/zenso";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bleTest.app/bleTest";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A911E2BC94CDA4DFE9AAA69E /* Pods-zenso-zensoTests.release.xcconfig */;
+			baseConfigurationReference = A911E2BC94CDA4DFE9AAA69E /* Pods-bleTest-bleTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = zensoTests/Info.plist;
+				INFOPLIST_FILE = bleTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,20 +481,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenso.app/zenso";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bleTest.app/bleTest";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD1EF9235481732F4AFF52E2 /* Pods-zenso.debug.xcconfig */;
+			baseConfigurationReference = CD1EF9235481732F4AFF52E2 /* Pods-bleTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GPZ2FJSWYU;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = zenso/Info.plist;
+				INFOPLIST_FILE = bleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,7 +509,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = zenso;
+				PRODUCT_NAME = bleTest;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -518,13 +518,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC85B73DC68DE495E565C23 /* Pods-zenso.release.xcconfig */;
+			baseConfigurationReference = 8EC85B73DC68DE495E565C23 /* Pods-bleTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GPZ2FJSWYU;
-				INFOPLIST_FILE = zenso/Info.plist;
+				INFOPLIST_FILE = bleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,7 +539,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = zenso;
+				PRODUCT_NAME = bleTest;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -671,7 +671,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "zensoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bleTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -680,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "zenso" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "zenso" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
